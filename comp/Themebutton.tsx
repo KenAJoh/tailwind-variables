@@ -28,10 +28,10 @@ export const Themebutton = () => {
 
   return (
     <button
-      className="bg-slate-300 text-gray-900 rounded-bl-md focus:outline-none fixed top-0 right-0 p-2"
+      className="bg-surface-neutral-subdued ring-1 ring-border-subtle ring-inset text-gray-900 rounded-bl-md focus:outline-none fixed top-[-1px] right-[-1px] p-2"
       onClick={handleTheme}
     >
-      {theme}
+      {`Theme: ${theme}`}
     </button>
   );
 };
