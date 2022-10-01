@@ -1,0 +1,74 @@
+.a-button {
+  padding: 0.25rem 1.25rem;
+  display: inline-flex;
+  border-radius: var(--a-button-radii, var(--a-radii-small));
+  border: none;
+  font-size: 18px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.a-button:focus {
+  outline: none;
+}
+
+.a-button--primary {
+  background-color: var(--a-button-primary-background, var(--a-color-primary));
+  color: var(--a-button-primary-color, var(--a-text-inverted));
+}
+
+.a-button--primary:hover {
+  background-color: var(
+    --a-button-primary-background-hover,
+    var(--a-color-primary-stronger)
+  );
+}
+
+.a-button--primary:active {
+  background-color: var(
+    --a-button-primary-background-active,
+    var(--a-color-primary-strongest)
+  );
+}
+
+.a-button--secondary {
+  background-color: var(--a-button-secondary-background, transparent);
+  color: var(--a-button-secondary-color, var(--a-color-primary));
+  box-shadow: inset 0 0 0 2px var(--a-button-secondary-color, var(--a-color-primary));
+}
+
+.a-button--secondary:hover {
+  background-color: var(
+    --a-button-secondary-background-hover,
+    var(--a-color-primary-lightest)
+  );
+}
+
+.a-button--secondary:active {
+  background-color: var(
+    --a-button-secondary-background-active,
+    var(--a-color-primary-strongest)
+  );
+  color: var(--a-button-secondary-color-active, var(--a-text-inverted));
+}
+
+.a-button--danger {
+  background-color: var(--a-button-danger-background, var(--a-color-danger));
+  color: var(--a-button-danger-color, var(--a-text-inverted));
+}
+
+.a-button--danger:hover {
+  background-color: var(
+    --a-button-danger-background-hover,
+    var(--a-color-danger-stronger)
+  );
+}
+
+.a-button--danger:active {
+  background-color: var(
+    --a-button-danger-background-active,
+    var(--a-color-danger-strongest)
+  );
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./tw.css";
+@import "./themes.css";
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.333;
+  font-size: 1.125rem;
+  color: var(--a-text);
+}
+
+.m-layout-inner {
+  @apply mx-auto max-w-4xl w-full px-6;
+}
+
+.m-panel-grid {
+  @apply grid gap-6 grid-cols-2;
+}

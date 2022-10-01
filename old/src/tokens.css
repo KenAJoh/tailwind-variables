@@ -1,0 +1,55 @@
+:root,
+:host,
+[data-theme="light"] {
+  --a-text-inverted: white;
+  --a-background: white;
+  --a-radii-small: 2px;
+
+  /* Primary */
+  --a-color-primary-lightest: rgba(230, 240, 255, 1);
+  --a-color-primary: rgba(0, 103, 197, 1);
+  --a-color-primary-stronger: rgba(0, 86, 180, 1);
+  --a-color-primary-strongest: rgba(0, 91, 130, 1);
+
+  /* Danger */
+  --a-color-danger: rgba(186, 58, 38, 1);
+  --a-color-danger-stronger: rgba(163, 42, 23, 1);
+  --a-color-danger-strongest: rgba(136, 29, 12, 1);
+}
+
+[data-theme="dark"] {
+  --a-text-inverted: #262626;
+  --a-background: #262626;
+
+  /* Primary */
+  --a-color-primary-lightest: rgba(230, 240, 255, 1);
+  --a-color-primary: rgba(153, 195, 255, 1);
+  --a-color-primary-stronger: rgba(102, 165, 244, 1);
+  --a-color-primary-strongest: rgba(51, 134, 224, 1);
+
+  /* Danger */
+  --a-color-danger: rgba(186, 58, 38, 1);
+  --a-color-danger-stronger: rgba(163, 42, 23, 1);
+  --a-color-danger-strongest: rgba(136, 29, 12, 1);
+
+  /* Komponenter */
+  --a-button-secondary-bg-hover: rgba(230, 240, 255, 0.1);
+  --a-button-danger-color: white;
+}
+
+[data-theme="arbeid"] {
+  --a-text-inverted: white;
+  --a-background: white;
+  --a-button-radii: 28px;
+
+  /* Primary */
+  --a-color-primary-lightest: rgba(239, 236, 244, 1);
+  --a-color-primary: rgba(130, 105, 162, 1);
+  --a-color-primary-stronger: rgba(99, 70, 137, 1);
+  --a-color-primary-strongest: rgba(82, 56, 116, 1);
+
+  /* Danger */
+  --a-color-danger: rgba(186, 58, 38, 1);
+  --a-color-danger-stronger: rgba(163, 42, 23, 1);
+  --a-color-danger-strongest: rgba(136, 29, 12, 1);
+}
