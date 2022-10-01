@@ -18,10 +18,12 @@ module.exports = {
       "surface-success-moderate": "var(--a-surface-success-moderate)",
       "icon-success": "var(--a-icon-success)",
       "icon-default": "var(--a-icon-default)",
-      "surface-decorative-1": "var(--a-surface-decorative-1)",
       "data-blue-subtle": "var(--a-data-blue-subtle)",
       "data-blue-moderate": "var(--a-data-blue-moderate)",
       "border-subtle": "var(--a-border-subtle)",
+      "surface-decorative-cold": "var(--a-surface-decorative-cold)",
+      "surface-decorative-warm": "var(--a-surface-decorative-warm)",
+      "surface-decorative-positive": "var(--a-surface-decorative-positive)",
     },
     textColor: {
       default: "var(--a-text)",

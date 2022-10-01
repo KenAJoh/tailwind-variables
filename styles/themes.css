@@ -25,11 +25,13 @@
 
   --a-icon-default: #ffffff;
 
-  --a-surface-decorative-1: #005077;
   --a-data-blue-subtle: #CCE2F0;
   --a-data-blue-moderate: #66A3C4;
 
   --a-border-subtle: rgba(255, 255, 255, 0.2);
+  --a-surface-decorative-cold: #003453;
+  --a-surface-decorative-warm: hsla(357, 99.6%, 60.3%, 0.237);
+  --a-surface-decorative-positive:hsla(158, 98.6%, 60.7%, 0.140);
 }
 
 :root,
@@ -60,9 +62,59 @@
 
   --a-icon-default: #1f2937;
 
-  --a-surface-decorative-1: #cce2f0;
   --a-data-blue-subtle: #66a3c4;
   --a-data-blue-moderate: #005b82;
 
   --a-border-subtle: rgba(33, 33, 33, 0.1);
+
+  --a-surface-decorative-cold: #cce2f0;
+  --a-surface-decorative-warm: #fde6e6;
+  --a-surface-decorative-positive: #ccf1d6;
 }
+/*
+.blueDarkA {
+  --blueA1: hsla(0, 0%, 0%, 0);
+  --blueA2: hsla(221, 97.8%, 52.4%, 0.059);
+  --blueA3: hsla(215, 99.3%, 54.2%, 0.135);
+  --blueA4: hsla(215, 99.3%, 53.8%, 0.198);
+  --blueA5: hsla(213, 99.4%, 52.8%, 0.252);
+  --blueA6: hsla(212, 99.9%, 51.7%, 0.323);
+  --blueA7: hsla(211, 100%, 50.7%, 0.435);
+  --blueA8: hsla(211, 99.8%, 50.9%, 0.597);
+  --blueA9: hsla(205, 100%, 50.0%, 0.980);
+  --blueA10: hsla(208, 100%, 60.7%, 0.980);
+  --blueA11: hsla(209, 100%, 66.3%, 0.980);
+  --blueA12: hsla(196, 100%, 96.8%, 0.980);
+}
+ */
+
+ /*
+ .redDark {
+  --red1: hsl(353, 23.0%, 9.8%);
+  --red2: hsl(357, 34.4%, 12.0%);
+  --red3: hsl(356, 43.4%, 16.4%);
+  --red4: hsl(356, 47.6%, 19.2%);
+  --red5: hsl(356, 51.1%, 21.9%);
+  --red6: hsl(356, 55.2%, 25.9%);
+  --red7: hsl(357, 60.2%, 31.8%);
+  --red8: hsl(358, 65.0%, 40.4%);
+  --red9: hsl(358, 75.0%, 59.0%);
+  --red10: hsl(358, 85.3%, 64.0%);
+  --red11: hsl(358, 100%, 69.5%);
+  --red12: hsl(351, 89.0%, 96.0%);
+}
+  */
+  /* .redDarkA {
+  --redA1: hsla(0, 0%, 0%, 0);
+  --redA2: hsla(5, 98.5%, 53.8%, 0.045);
+  --redA3: hsla(359, 99.1%, 61.1%, 0.130);
+  --redA4: hsla(358, 98.8%, 61.0%, 0.184);
+  --redA5: hsla(357, 99.6%, 60.3%, 0.237);
+  --redA6: hsla(358, 99.6%, 60.3%, 0.322);
+  --redA7: hsla(357, 100%, 59.5%, 0.442);
+  --redA8: hsla(358, 99.8%, 59.1%, 0.621);
+  --redA9: hsla(358, 100%, 65.5%, 0.884);
+  --redA10: hsla(358, 100%, 67.5%, 0.942);
+  --redA11: hsla(358, 100%, 69.7%, 0.980);
+  --redA12: hsla(352, 100%, 97.1%, 0.980);
+} */

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Utbetalinger = () => (
   <div className="m-panel-grid">
-    <div className="rounded-lg bg-surface-decorative-1">
+    <div className="rounded-lg bg-surface-decorative-cold">
       <Link href="#" passHref>
         <a className="p-6 flex justify-between rounded-lg max-w-md hover:bg-surface-hover h-full ring-subtle">
           <div className="flex flex-col h-full">
