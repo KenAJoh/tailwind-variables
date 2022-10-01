@@ -14,6 +14,7 @@
   --a-surface: var(--grey-900);
 }
 
+:root,
 [data-theme="minside"] {
   --a-bg: var(--white);
 

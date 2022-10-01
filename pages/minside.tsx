@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { Varsler } from "../comp/Varsler";
-
 import { Themebutton } from "../comp/Themebutton";
 import { Sykefravær } from "../comp/Sykefravær";
 import { Pengestøtte } from "../comp/Pengestøtte";

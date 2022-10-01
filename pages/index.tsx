@@ -1,14 +1,16 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className="mx-auto grid place-items-center h-screen gap-4 bg-gray-50">
-      <a
-        href="/minside"
-        className="p-6 text-xl bg-white text-gray-900 shadow-md rounded ring-1 ring-gray-900/10 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-900"
-      >
-        Theming min side
-      </a>
+    <div className="mx-auto from-surface-decorative-1 to-surface-success-subdued bg-gradient-to-br grid place-items-center h-screen gap-4 bg-surface-neutral-subdued">
+      <div className="bg-surface rounded">
+        <Link href="/minside" passHref>
+          <a className="ring-subtle h-full flex p-6 text-xl text-default shadow-md rounded hover:bg-surface-hover focus:outline-none">
+            Min side demo
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };
