@@ -1,13 +1,39 @@
 [data-theme="dark"] {
-  --a-bg: var(--grey-900);
-  --a-text: var(--white);
-  --a-text-muted: var(--grey-400);
-  --a-surface: var(--grey-900);
+  --a-surface: #1F2937;
+  --a-surface-hover: rgba(0, 0, 0, 0.2);
+  --a-surface-subdued: #111827;
+
+  --a-text: #ffffff;
+  --a-text-muted: rgba(156, 163, 175, 1);
+
+  --a-surface-danger-subdued: #CE5441;
+
+
+  --a-surface-warning-subdued:  #c77300;
+  --a-icon-warning: #ffeccc;
+
+  --a-surface-info-subdued: #368da8;
+  --a-icon-info: #d8f9ff;
+
+  --a-surface-neutral-subdued: #374151;
+  --a-surface-neutral-subdued-hover: rgba(0, 0, 0, 0.2);
+  --a-surface-neutral-moderate: #1F2937;
+
+  --a-surface-success-subdued: #06893a;
+  --a-surface-success-moderate: #99dead;
+  --a-icon-success: #ccf1d6;
+
+  --a-icon-default: #ffffff;
+
+  --a-surface-decorative-1: #005077;
+  --a-data-blue-subtle: #CCE2F0;
+  --a-data-blue-moderate: #66A3C4;
+
+  --a-border-subtle: rgba(255, 255, 255, 0.4);
 }
 
 :root,
 [data-theme="minside"] {
-  --a-bg: #ffffff;
 
   --a-text: #1f2937;
   --a-text-muted: rgba(107, 114, 128, 1);
