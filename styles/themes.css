@@ -1,12 +1,3 @@
-/* :root,
-[data-theme="light"] {
-  --a-bg: var(--white);
-  --a-text: var(--grey-900);
-  --a-text-muted: var(--grey-600);
-  --a-decor-1: #ffe6e6;
-  --a-surface: var(--white);
-} */
-
 [data-theme="dark"] {
   --a-bg: var(--grey-900);
   --a-text: var(--white);
@@ -16,12 +7,12 @@
 
 :root,
 [data-theme="minside"] {
-  --a-bg: var(--white);
+  --a-bg: #ffffff;
 
-  --a-text: var(--grey-900);
-  --a-text-muted: var(--grey-600);
+  --a-text: #1f2937;
+  --a-text-muted: rgba(107, 114, 128, 1);
 
-  --a-surface: var(--white);
+  --a-surface: #ffffff;
   --a-surface-hover: rgba(10, 41, 87, 0.03);
   --a-surface-subdued: #f9fafb;
 
