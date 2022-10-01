@@ -23,6 +23,7 @@ const Minside: NextPage = () => {
       <div className="m-layout-inner py-12">
         <h2 className="mb-3 text-2xl font-semibold">Sykefravær</h2>
         <Sykefravær />
+        <h2 className="mb-3 mt-12 text-2xl font-semibold">Utbetalinger</h2>
         <Utbetalinger />
       </div>
       <div className="py-12 bg-surface-success-subdued">

@@ -21,6 +21,7 @@ module.exports = {
       "surface-decorative-1": "var(--a-surface-decorative-1)",
       "data-blue-subtle": "var(--a-data-blue-subtle)",
       "data-blue-moderate": "var(--a-data-blue-moderate)",
+      "border-subtle": "var(--a-border-subtle)",
     },
     textColor: {
       default: "var(--a-text)",

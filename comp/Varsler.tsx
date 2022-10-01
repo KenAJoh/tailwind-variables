@@ -5,7 +5,7 @@ export const Varsler = () => (
     <div className="bg-surface rounded-lg">
       <a
         href="#"
-        className="p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
+        className="ring-subtle p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
       >
         <div className="flex gap-4">
           <svg
@@ -35,7 +35,7 @@ export const Varsler = () => (
     <div className="bg-surface rounded-lg">
       <a
         href="#"
-        className="p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
+        className="ring-subtle p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
       >
         <div className="flex gap-4">
           <svg

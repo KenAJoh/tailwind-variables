@@ -6,7 +6,7 @@ export const Pengestøtte = () => (
     <div className="rounded-lg bg-surface ">
       <a
         href="#"
-        className="p-6 flex  justify-between rounded-lg max-w-md hover:bg-surface-hover h-full"
+        className="ring-subtle p-6 flex  justify-between rounded-lg max-w-md hover:bg-surface-hover h-full"
       >
         <div className="flex flex-col h-full">
           <div className="text-xl font-semibold">Foreldre- og svangerskapspenger</div>
@@ -23,7 +23,7 @@ export const Pengestøtte = () => (
       <div className="bg-surface rounded-lg">
         <a
           href="#"
-          className="p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
+          className="ring-subtle p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
         >
           <div className="flex gap-4">
             <svg
@@ -53,7 +53,7 @@ export const Pengestøtte = () => (
       <div className="bg-surface rounded-lg">
         <a
           href="#"
-          className="p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
+          className="ring-subtle p-6 flex items-center justify-between rounded-lg max-w-md bg-surface hover:bg-surface-hover"
         >
           <div className="flex gap-4">
             <svg

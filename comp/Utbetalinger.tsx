@@ -1,11 +1,11 @@
 import { Next } from "@navikt/ds-icons";
 
 export const Utbetalinger = () => (
-  <div className="m-panel-grid mt-10">
+  <div className="m-panel-grid">
     <div className="rounded-lg bg-surface-decorative-1">
       <a
         href="#"
-        className="p-6 flex  justify-between rounded-lg max-w-md hover:bg-surface-hover h-full"
+        className="p-6 flex justify-between rounded-lg max-w-md hover:bg-surface-hover h-full ring-subtle"
       >
         <div className="flex flex-col h-full">
           <div className="text-xl font-semibold">Siste utbetaling</div>
@@ -18,7 +18,7 @@ export const Utbetalinger = () => (
         <Next aria-hidden className="text-2xl self-end" />
       </a>
     </div>
-    <div className="p-6 grid gap-3 rounded-lg max-w-md bg-surface-neutral-subdued">
+    <div className="ring-subtle p-6 grid gap-3 rounded-lg max-w-md bg-surface-neutral-subdued">
       <div className="font-semibold">Totalt i år</div>
       <div className="grid gap-2">
         <div className="w-3/4 bg-data-blue-moderate rounded h-6" />

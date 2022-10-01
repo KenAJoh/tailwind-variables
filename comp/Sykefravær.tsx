@@ -5,7 +5,7 @@ export const Sykefravær = () => (
     <div className="rounded-lg bg-surface-neutral-subdued ">
       <a
         href="#"
-        className="p-6 flex items-center justify-between rounded-lg max-w-md hover:bg-surface-neutral-subdued-hover"
+        className="ring-subtle p-6 flex items-center justify-between rounded-lg max-w-md hover:bg-surface-neutral-subdued-hover"
       >
         <div>
           <div className="text-xl font-semibold">100% sykmeldt</div>
@@ -20,7 +20,7 @@ export const Sykefravær = () => (
     <div className="rounded-lg bg-surface-neutral-subdued">
       <a
         href="#"
-        className="p-6 flex items-center justify-between rounded-lg max-w-md hover:bg-surface-neutral-subdued-hover"
+        className="ring-subtle p-6 flex items-center justify-between rounded-lg max-w-md hover:bg-surface-neutral-subdued-hover"
       >
         <div>
           <div className="text-xl font-semibold">70% sykmeldt</div>

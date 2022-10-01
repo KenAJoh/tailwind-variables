@@ -19,3 +19,15 @@ body {
 .m-panel-grid {
   @apply grid gap-6 grid-cols-2;
 }
+
+.ring-subtle {
+  @apply ring-1 ring-border-subtle;
+}
+
+.ring-subtle:where(:not(a)) {
+  @apply ring-inset;
+}
+
+.ring-subtle:where(a) {
+  @apply shadow-md;
+}
