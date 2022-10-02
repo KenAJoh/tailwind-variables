@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const Themebutton = () => {
+export const Themebutton = ({v}: {v: string}) => {
   const [theme, setTheme] = useState("minside");
 
   const handleTheme = () => {
@@ -19,11 +19,11 @@ export const Themebutton = () => {
         break;
     }
     setTheme(newTheme);
-    document.body.setAttribute("data-theme", newTheme);
+    document.body.setAttribute(`data-theme-${v}`, newTheme);
   };
 
   useEffect(() => {
-    document.body.setAttribute("data-theme", "minside");
+    document.body.setAttribute(`data-theme-${v}`, "minside");
   }, []);
 
   return (

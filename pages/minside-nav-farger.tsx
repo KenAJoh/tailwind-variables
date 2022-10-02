@@ -8,10 +8,10 @@ import { Utbetalinger } from "../comp/Utbetalinger";
 const Minside: NextPage = () => {
   return (
     <div className="flex flex-col min-h-screen gap-4 relative py-16 bg-surface">
-      <Themebutton v="v1" />
+      <Themebutton v="v2" />
       <div className="m-hero py-9 m-layout-inner">
         <h1 className="text-muted mb-2 text-3xl text-[32px] font-semibold">
-          Farger fra semantiske farger 2.0 arbeid
+          NAV farger
         </h1>
         <h1 className="text-muted mb-2 text-3xl text-[32px] font-semibold">
           God morgen
