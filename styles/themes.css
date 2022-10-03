@@ -105,7 +105,7 @@
   --a-surface-decorative-positive: var(--n-green-50);
 }
 
-[data-theme-v2="minside"] {
+[data-theme-v2="dark"] {
   --a-text: var(--n-white);
   --a-text-muted: var(--n-gray-300);
 
